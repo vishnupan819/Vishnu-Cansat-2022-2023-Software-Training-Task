@@ -5,6 +5,7 @@ Vishnu Panganamamula
 **Note:** The programming, debugging and simulation of the circuit was done on TinkerCAD.
 
 **Programming:**
+
 The objective of this task is to write a program where an RGB-LED and a servo motor change based on the temperature sensed by the temperature sensor, which was the TMP36. 
 The range of the temperature sensor and the range of the angles the servo motor can reach were supposed to correspond to one another. The minimum temperature corresponds to the minimum angle of the servo motor and the same applies for the maximum temperature and the maximum angle respectively. 
 
@@ -16,4 +17,5 @@ Once the temperature and servo motor angles are mapped together, the next step w
 
 
 **Testing and Debugging:**
+
 When testing the circuit, the simulation showed a flashing yellow LED instead of any other colours. I realized that other colours can only be seen if the room temperature changes and the temperature sensor would pick up on that change. However, since the circuit was designed and tested as a TinkerCAD simulation, the default temperature setting would be room temperature (which is why the LED was yellow) and no changes could be made to the room temperature in order to change the colour of the LED.
